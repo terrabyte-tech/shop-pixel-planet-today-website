@@ -1,21 +1,41 @@
 /* stylesheet for shop.pixelplanettoday.com */
 
 
-:root{
-  --maker-font-body: 'VT323', monospace;
-}
+
+
+/* general typography */
 *{
-  font-family: 'VT323', monospace;
+  font-family: 'VT323', monospace!important;
+  font-size:22px!important;
 }
 
+p{
+  font-size: 22px!important;
+  line-height: 1.3em;
+}
+
+button,
+a[type='button'],
+button *,
+a[type='button'] *{
+    font-family: 'Press Start 2P', sans-serif!important;
+    text-transform:uppercase!important;
+    font-size:15px!important;
+}
+
+/* specific typography */
 .product__title h1, .category__title h3 {
   font-family: 'Press Start 2P', sans-serif!important;
   text-transform: uppercase;
-  font-size: 20px!important;
+  font-size: 30px!important;
   line-height: 1.7!important;
 }
 
+
 /* nav/search bar */
+.square__icons-cart_iconCartNumber--3Rp4f{
+  color:white!important;
+}
 
 /* home page */
 
