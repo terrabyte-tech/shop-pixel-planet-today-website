@@ -36,6 +36,22 @@ a[type='button'] *{
 .square__icons-cart_iconCartNumber--3Rp4f{
   color:white!important;
 }
+.search-bar *{
+  border:none!important;
+}
+.search-bar input{
+  color: inherit;
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: inherit;
+  width: 100%;
+  display: block;
+  background-color: transparent;
+  max-width: 100%;
+  padding-bottom: 10px!important;
+  border: none;
+  border-bottom: 3px solid currentColor!important;
+  text-overflow: ellipsis;
+}
 
 /* home page */
 
