@@ -72,3 +72,26 @@ a[type='button'] *{
 /* search results page */
 
 /* footer */
+/* pixel facebook and instagram icons */
+/* hide default svgs */
+#ab489f20-bf4c-11ea-a6ef-a55ecb7e982d svg{
+  opacity:0!important;
+}
+/* set shared image styles from Pixel website */
+#ab489f20-bf4c-11ea-a6ef-a55ecb7e982d a[href*="facebook.com"],
+#ab489f20-bf4c-11ea-a6ef-a55ecb7e982d a[href*="instagram.com"]{
+  background-image:url("https://www.pixelplanettoday.com/img/icons/social-spritesheet.png");
+  background-size: 600%;
+  background-repeat: no-repeat;
+  width:40px;
+  height:40px;
+  display:inline-block;
+  vertical-align:middle;
+  margin:0 3px;
+}
+#ab489f20-bf4c-11ea-a6ef-a55ecb7e982d a[href*="facebook.com"]{
+  background-position:-198px 0px;
+}
+#ab489f20-bf4c-11ea-a6ef-a55ecb7e982d a[href*="instagram.com"]{
+  background-position:-2px 0px;
+}
