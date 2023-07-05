@@ -66,6 +66,10 @@ a[type='button'] *{
   border-bottom: 3px solid currentColor!important;
   text-overflow: ellipsis;
 }
+/* hide helper icons next to input */
+.search-bar input ~ span{
+  display:none;
+}
 
 /* home page */
 
