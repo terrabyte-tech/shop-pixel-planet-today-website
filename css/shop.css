@@ -1,5 +1,11 @@
 /* stylesheet for shop.pixelplanettoday.com */
 
+/* random from Square backend */
+:root{
+  --primary-font:'VT323', monospace!important; --secondary-font:'VT323', monospace!important; --body-font:'VT323', monospace!important; --ui-font:'VT323', monospace!important; --title-font:'Press Start 2P', sans-serif!important; --font-step-minus-1-size:16px!important; --input-border-radius:0!important
+}
+
+
 /* ///////////////////////////////////////////////////// */
 /* PAGE TYPOGRAPHY */
 /* ///////////////////////////////////////////////////// */
@@ -25,14 +31,23 @@ button *,
 a[type='button'] *{
     font-family: 'Press Start 2P', sans-serif!important;
     text-transform:uppercase!important;
+    border-radius:0!important;
     font-size:15px!important;
 }
+input[type='text']{
+  border-radius:0!important
+}
+select{
+  border-radius:0!important;
+}
 
-/* specific typography */
-.product__title h1, .category__title h3 {
+/* specific typography; shared */
+.product__title h1,
+.category__title h3 {
   font-family: 'Press Start 2P', sans-serif!important;
   text-transform: uppercase;
-  font-size: 30px!important;
+  /* font-size: 30px!important; */
+  font-size: 20px!important;
   line-height: 1.7!important;
 }
 
@@ -114,14 +129,29 @@ a[type='button'] *{
 /* ///////////////////////////////////////////////////// */
 
 /* slideshow arrows */
-
+/* going with default ones because it keeps changing... */
+/* add to cart button */
+.cart-button{
+  font-size:12px!important;
+}
+.cart-button span{
+  overflow:inherit;
+}
+/* product description */
+.product-description header{
+  font-family:'Press Start 2P', sans-serif!important; text-transform:uppercase;
+  font-size:12px!important;
+}
 
 
 
 /* ///////////////////////////////////////////////////// */
 /* SPECIFIC PAGE; HOME */
 /* ///////////////////////////////////////////////////// */
-
+[data-block-purpose*='mission'] h2{
+  font-family:'VT323', monospace!important;
+  font-size:40px!important;
+}
 
 
 /* ///////////////////////////////////////////////////// */
@@ -137,3 +167,15 @@ a[type='button'] *{
 
 /* no longer works as of 7/5/2023 */
 /* .carousel__arrow svg{opacity:0} .carousel__arrow > div{background-position:center!important; background-size: 40%!important; background-repeat: no-repeat!important;} .carousel__arrow.carousel__arrow--right > div{background-image:url(https://www.pixelplanettoday.com/img/ui/right-arrow-icon-white.png)} .carousel__arrow.carousel__arrow--left > div{background-image:url(https://www.pixelplanettoday.com/img/ui/left-arrow-icon-white.png)} .carousel__arrow-icon[data-v-9a069d34]{border-radius:0!important; box-shadow:none!important;background-color:currentColor!important;} */
+
+
+/* .carousel__navigation--button[data-v-d998ce08]{
+  border-radius:0!important;
+} */
+/* .carousel__navigation{
+  margin-bottom:20px!important
+} */
+
+/* .product-sort select, select{
+  border-radius:0!important;
+} */
