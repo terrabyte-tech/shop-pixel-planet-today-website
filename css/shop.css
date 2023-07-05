@@ -1,19 +1,24 @@
 /* stylesheet for shop.pixelplanettoday.com */
 
-
-
-
+/* ///////////////////////////////////////////////////// */
+/* PAGE TYPOGRAPHY */
+/* ///////////////////////////////////////////////////// */
 /* general typography */
 *{
   font-family: 'VT323', monospace!important;
   font-size:22px!important;
 }
-
 p{
   font-size: 22px!important;
   line-height: 1.3em;
 }
-
+a{
+  color:currentColor;
+  transition:opacity .25s ease-in-out;
+}
+a:hover{
+  opacity:.6;
+}
 button,
 a[type='button'],
 button *,
@@ -32,8 +37,12 @@ a[type='button'] *{
 }
 
 
-/* nav/search bar */
 
+/* ///////////////////////////////////////////////////// */
+/* PAGE ELEMENTS */
+/* ///////////////////////////////////////////////////// */
+
+/* nav/search bar */
 /* cart */
 .icon.header__cart{
   background-position: left center;
@@ -70,10 +79,7 @@ a[type='button'] *{
 .search-bar input ~ span{
   display:none;
 }
-
-/* home page */
-
-/* search results page */
+/* _____________________________ */
 
 /* footer */
 /* pixel facebook and instagram icons */
@@ -99,3 +105,35 @@ a[type='button'] *{
 #ab489f20-bf4c-11ea-a6ef-a55ecb7e982d a[href*="instagram.com"]{
   background-position:-2px 0px;
 }
+/* _____________________________ */
+
+
+
+/* ///////////////////////////////////////////////////// */
+/* SHARED PAGE; ITEM */
+/* ///////////////////////////////////////////////////// */
+
+/* slideshow arrows */
+
+
+
+
+/* ///////////////////////////////////////////////////// */
+/* SPECIFIC PAGE; HOME */
+/* ///////////////////////////////////////////////////// */
+
+
+
+/* ///////////////////////////////////////////////////// */
+/* SPECIFIC PAGE; SEARCH RESULTS */
+/* ///////////////////////////////////////////////////// */
+
+
+
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+/* OLD; MIGHT NOT NEED ANY MORE/NEEDS SORTED */
+
+/* no longer works as of 7/5/2023 */
+/* .carousel__arrow svg{opacity:0} .carousel__arrow > div{background-position:center!important; background-size: 40%!important; background-repeat: no-repeat!important;} .carousel__arrow.carousel__arrow--right > div{background-image:url(https://www.pixelplanettoday.com/img/ui/right-arrow-icon-white.png)} .carousel__arrow.carousel__arrow--left > div{background-image:url(https://www.pixelplanettoday.com/img/ui/left-arrow-icon-white.png)} .carousel__arrow-icon[data-v-9a069d34]{border-radius:0!important; box-shadow:none!important;background-color:currentColor!important;} */
