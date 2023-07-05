@@ -2,7 +2,13 @@
 
 /* random from Square backend */
 :root{
-  --primary-font:'VT323', monospace!important; --secondary-font:'VT323', monospace!important; --body-font:'VT323', monospace!important; --ui-font:'VT323', monospace!important; --title-font:'Press Start 2P', sans-serif!important; --font-step-minus-1-size:16px!important; --input-border-radius:0!important
+  --primary-font:'VT323', monospace!important;
+  --secondary-font:'VT323', monospace!important;
+  --body-font:'VT323', monospace!important;
+  --ui-font:'VT323', monospace!important;
+  --title-font:'Press Start 2P', sans-serif!important;
+  --font-step-minus-1-size:16px!important;
+  --input-border-radius:0!important;
 }
 
 
@@ -74,6 +80,7 @@ select{
 }
 
 /* search */
+/* search icon */
 .search-bar *{
   border:none!important;
 }
@@ -168,10 +175,10 @@ select{
 /* no longer works as of 7/5/2023 */
 /* .carousel__arrow svg{opacity:0} .carousel__arrow > div{background-position:center!important; background-size: 40%!important; background-repeat: no-repeat!important;} .carousel__arrow.carousel__arrow--right > div{background-image:url(https://www.pixelplanettoday.com/img/ui/right-arrow-icon-white.png)} .carousel__arrow.carousel__arrow--left > div{background-image:url(https://www.pixelplanettoday.com/img/ui/left-arrow-icon-white.png)} .carousel__arrow-icon[data-v-9a069d34]{border-radius:0!important; box-shadow:none!important;background-color:currentColor!important;} */
 
-
 /* .carousel__navigation--button[data-v-d998ce08]{
   border-radius:0!important;
 } */
+
 /* .carousel__navigation{
   margin-bottom:20px!important
 } */
