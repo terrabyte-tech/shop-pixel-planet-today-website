@@ -33,9 +33,23 @@ a[type='button'] *{
 
 
 /* nav/search bar */
+
+/* cart */
+.icon.header__cart{
+  background-position: left center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url(https://www.pixelplanettoday.com/img/ui/cart-icon-white.png);
+}
+.icon.header__cart svg{
+  opacity:0;
+}
+/* number of items in cart badge */
 .square__icons-cart_iconCartNumber--3Rp4f{
   color:white!important;
 }
+
+/* search */
 .search-bar *{
   border:none!important;
 }
