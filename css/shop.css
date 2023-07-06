@@ -139,7 +139,16 @@ select{
 /* SHARED PAGE; ITEM */
 /* ///////////////////////////////////////////////////// */
 
-/* slideshow arrows */
+/* slideshow container (where images are) */
+.carousel__container{
+  margin-bottom:20px!important;
+}
+/* slideshow circles (under images, on mobile) */
+.carousel__navigation--button{
+  border-radius:0!important;
+}
+
+/* slideshow arrows (on either side of images) */
 /* going with default ones because it keeps changing... */
 /* add to cart button */
 .cart-button{
@@ -172,14 +181,32 @@ select{
   #wbAVCs .row > .w-cell:last-child{
     display:none;
   }
+
+  /* restyle eco symbols in the green areas */
+  #bdfc8730-1a0b-11ee-9654-97edebf03fbd .sm-image,
+  [layout="text-and-image-2-column"] .sm-image{
+      max-width:100px;
+      max-height:100px;
+      margin:0 auto;
+  }
 }
-#wbAVCs .row > .w-cell:firt-child{
-  max-width: 100%;
-  flex: auto;
+@media only screen and (max-width: 600px){
+  /* align the eco labels in green area */
+  #bdfc8730-1a0b-11ee-9654-97edebf03fbd .text-col .col,
+  [layout="text-and-image-2-column"] .text-col .col{
+      display:flex!important;
+      align-items:center;
+  }
+  /* align WWF panda */
+  #rAlhGg[data-block-purpose*="text-and-image"] .row > .w-cell:last-child{
+    max-width: 100%!important;
+    flex: auto!important;
+  }
+  #rAlhGg[data-block-purpose*="text-and-image"] .row > .w-cell:first-child{
+    display:none;
+  }
 }
-#wbAVCs .row > .w-cell:last-child{
-  display:none;
-}
+
 
 
 /* ///////////////////////////////////////////////////// */
@@ -195,10 +222,6 @@ select{
 
 /* no longer works as of 7/5/2023 */
 /* .carousel__arrow svg{opacity:0} .carousel__arrow > div{background-position:center!important; background-size: 40%!important; background-repeat: no-repeat!important;} .carousel__arrow.carousel__arrow--right > div{background-image:url(https://www.pixelplanettoday.com/img/ui/right-arrow-icon-white.png)} .carousel__arrow.carousel__arrow--left > div{background-image:url(https://www.pixelplanettoday.com/img/ui/left-arrow-icon-white.png)} .carousel__arrow-icon[data-v-9a069d34]{border-radius:0!important; box-shadow:none!important;background-color:currentColor!important;} */
-
-/* .carousel__navigation--button[data-v-d998ce08]{
-  border-radius:0!important;
-} */
 
 /* .carousel__navigation{
   margin-bottom:20px!important
