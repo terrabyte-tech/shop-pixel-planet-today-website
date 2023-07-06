@@ -157,6 +157,20 @@ select{
 .cart-button span{
   overflow:inherit;
 }
+@media only screen and (max-width: 600px){
+  /* only way to target the shop button on mobile..? */
+  button[size="large"],
+  button[size="large"] span,
+  button[size="large"] div{
+    font-size:12px!important;
+  }
+  button[size="large"] span{
+    text-align:left;
+  }
+  button[size="large"] span:nth-child(2){
+    display:none;
+  }
+}
 /* product description */
 .product-description header{
   font-family:'Press Start 2P', sans-serif!important; text-transform:uppercase;
@@ -197,12 +211,12 @@ select{
       display:flex!important;
       align-items:center;
   }
-  /* align WWF panda */
-  #rAlhGg[data-block-purpose*="text-and-image"] .row > .w-cell:last-child{
+  /* align WWF Panda or Plastic Free July logo (hide the logo, let text fill) */
+  [layout*="text-and-image-2-row"] .row .col{
     max-width: 100%!important;
     flex: auto!important;
   }
-  #rAlhGg[data-block-purpose*="text-and-image"] .row > .w-cell:first-child{
+  [layout*="text-and-image-2-row"] .row .col-4{
     display:none;
   }
 }
