@@ -188,13 +188,18 @@ select{
 }
 /* responsive */
 @media only screen and (max-width: 840px){
-  #wbAVCs .row > .w-cell:first-child{
+  [data-block-purpose*='mission'] h2{
+    font-size:30px!important;
+  }
+
+  /* Plastic Free July logo */
+  /* #wbAVCs .row > .w-cell:first-child{
     max-width: 100%!important;
     flex: auto!important;
   }
   #wbAVCs .row > .w-cell:last-child{
     display:none;
-  }
+  } */
 
   /* restyle eco symbols in the green areas */
   #bdfc8730-1a0b-11ee-9654-97edebf03fbd .sm-image,
