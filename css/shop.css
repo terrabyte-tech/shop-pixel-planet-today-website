@@ -62,6 +62,10 @@ select{
 /* ///////////////////////////////////////////////////// */
 /* PAGE ELEMENTS */
 /* ///////////////////////////////////////////////////// */
+/* header (the top black bar with logo, search, and cart buttons) */
+.header[data-block-purpose*="header"]{
+  margin-bottom:0!important;
+}
 
 /* nav/search bar */
 /* cart */
@@ -158,6 +162,23 @@ select{
 [data-block-purpose*='mission'] h2{
   font-family:'VT323', monospace!important;
   font-size:40px!important;
+}
+/* responsive */
+@media only screen and (max-width: 840px){
+  #wbAVCs .row > .w-cell:first-child{
+    max-width: 100%!important;
+    flex: auto!important;
+  }
+  #wbAVCs .row > .w-cell:last-child{
+    display:none;
+  }
+}
+#wbAVCs .row > .w-cell:firt-child{
+  max-width: 100%;
+  flex: auto;
+}
+#wbAVCs .row > .w-cell:last-child{
+  display:none;
 }
 
 
