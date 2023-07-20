@@ -124,9 +124,10 @@ select{
 .dot-container:first-child{
   background:url("https://media3.giphy.com/media/siRxhMOxoKNLlKbnVW/giphy.gif");
   /* background:url("https://media1.giphy.com/media/jn82r7mUtzajnRQSsQ/giphy.gif"); */
+  background-color:#aedae2;
   width:100px;
   height:80px;
-  background-size:fit;
+  background-size:contain;
   background-position:center;
 }
 /* _____________________________ */
