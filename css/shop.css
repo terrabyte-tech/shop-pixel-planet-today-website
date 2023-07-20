@@ -110,6 +110,7 @@ select{
 /* loading dots/cubes */
 /* remove default loading animation */
 .dot-container{
+  transition:.35s;
   background: none;
   background-color:transparent;
   /* background-color:#388841; */
@@ -129,6 +130,7 @@ select{
   height:80px;
   background-size:contain;
   background-position:center;
+  background-repeat: no-repeat;
 }
 /* _____________________________ */
 
