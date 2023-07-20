@@ -107,31 +107,30 @@ select{
 }
 /* _____________________________ */
 
+/* nixed the following code because the transition from build in system loading animation to the custom one was not smooth, and in turn, didn't give enough time to really play the custom one. */
 /* loading dots/cubes */
 /* remove default loading animation */
-.dot-container{
+/* .dot-container{
   transition:.35s;
   background: none;
   background-color:transparent;
-  /* background-color:#388841; */
   width:0px;
   height:0px;
   border-radius:0;
   mask:none!important;
   mask-image:none!important;
   -webkit-mask-image:none!important;
-}
+} */
 /* include image on the first one */
-.dot-container:first-child{
+/* .dot-container:first-child{
   background:url("https://media3.giphy.com/media/siRxhMOxoKNLlKbnVW/giphy.gif");
-  /* background:url("https://media1.giphy.com/media/jn82r7mUtzajnRQSsQ/giphy.gif"); */
   background-color:#aedae2;
   width:100px;
   height:80px;
   background-size:contain;
   background-position:center;
   background-repeat: no-repeat;
-}
+} */
 /* _____________________________ */
 
 /* footer */
