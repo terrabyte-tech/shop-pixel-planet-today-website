@@ -107,6 +107,14 @@ select{
 }
 /* _____________________________ */
 
+/* loading dots/cubes */
+.dot-container{
+  background-color:#388841;
+  border-radius:0;
+  mask-image:none!important;
+}
+/* _____________________________ */
+
 /* footer */
 /* pixel facebook and instagram icons */
 /* hide default svgs */
