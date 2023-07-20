@@ -108,14 +108,26 @@ select{
 /* _____________________________ */
 
 /* loading dots/cubes */
+/* remove default loading animation */
 .dot-container{
-  background-color:#388841;
-  width:20px;
-  height:20px;
+  background: none;
+  background-color:transparent;
+  /* background-color:#388841; */
+  width:0px;
+  height:0px;
   border-radius:0;
   mask:none!important;
   mask-image:none!important;
   -webkit-mask-image:none!important;
+}
+/* include image on the first one */
+.dot-container:first-child{
+  background:url("https://media3.giphy.com/media/siRxhMOxoKNLlKbnVW/giphy.gif");
+  /* background:url("https://media1.giphy.com/media/jn82r7mUtzajnRQSsQ/giphy.gif"); */
+  width:100px;
+  height:80px;
+  background-size:fit;
+  background-position:center;
 }
 /* _____________________________ */
 
