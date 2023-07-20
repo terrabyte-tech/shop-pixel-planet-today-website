@@ -110,8 +110,12 @@ select{
 /* loading dots/cubes */
 .dot-container{
   background-color:#388841;
+  width:20px;
+  height:20px;
   border-radius:0;
+  mask:none!important;
   mask-image:none!important;
+  -webkit-mask-image:none!important;
 }
 /* _____________________________ */
 
