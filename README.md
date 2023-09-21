@@ -1,8 +1,8 @@
 # shop-pixel-planet-today-website
 
-Note: This website is hosted using Square Online, meaning the code is safely locked away. However, this repository is home to the redirect page that navigates the user to the Square Online store, as well as the custom CSS stylesheet used to 'pixelize' it.
+Codebase for the Pixel Planet Today webstore. This repo is incredibly lightweight due to the nature of most files existing on Square. The repo includes a redirect file to go to said Square site, as well as resource files to support site development.
 
-This also means that there is currently no `dev` server (hence the lack of a `dev.yml`).
+Note: There is currently no `dev` server (hence the lack of a `dev.yml`), meaning changes committed to `main` will be seen (close to) instantly.
 
 ## Sitemap
 
