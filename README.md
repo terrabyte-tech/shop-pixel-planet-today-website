@@ -2,7 +2,9 @@
 
 Codebase for the Pixel Planet Today webstore. This repo is incredibly lightweight due to the nature of most files existing on Square. The repo includes a redirect file to go to said Square site, as well as resource files to support site development.
 
-Note: There is currently no `dev` server (hence the lack of a `dev.yml`), meaning changes committed to `main` will be seen (close to) instantly.
+**Note:** There is currently no `dev` server (hence the lack of a `dev.yml`), meaning changes committed to `main` will be seen (close to) instantly.
+
+<br>
 
 ## Sitemap
 
@@ -10,6 +12,8 @@ Note: There is currently no `dev` server (hence the lack of a `dev.yml`), meanin
 - `/css` : Holds custom CSS used on the Square online store (restyling elements)
 - `/plastic-free-july` : Redirects to the Plastic Free July goods on the Square online store
 - Other subdirectories may be used to redirect to specific categories, products, etc.
+
+<br>
 
 ## Icons
 
