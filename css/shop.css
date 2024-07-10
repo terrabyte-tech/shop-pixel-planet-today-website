@@ -252,9 +252,12 @@ select{
   }
 }
 
+
 /* wasted space section */
-#7f04dd30-3e6c-11ef-a61e-9fe9429b4118,
-#f07d9b30-3e64-11ef-88c2-0722769b7d37{
+/* #7f04dd30-3e6c-11ef-a61e-9fe9429b4118, */
+
+#f07d9b30-3e64-11ef-88c2-0722769b7d37,
+[id="7f04dd30-3e6c-11ef-a61e-9fe9429b4118"]{
   background-image:url("/img/wasted-space_logo_bg_anim.gif");
   background-size: contain;
   background-repeat: repeat-x;
